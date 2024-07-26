@@ -14,7 +14,11 @@ export default class Controller {
         View.updateTimer(this.game.time);
     }
 
-    static onBlockClick(blockId) {
+    static onMoleClick(blockId) {
         this.game.removeMole(blockId);
+    }
+
+    static onSnakeClick() {
+        this.game.clickSnake();
     }
 }

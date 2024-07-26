@@ -30,12 +30,13 @@ body {
     cursor: pointer;
     border-radius: 50%;
 }
-.mole {
+.mole, .snake {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: none;
 }
+
 #timerblock {
     position: fixed;
     top: 10px;
